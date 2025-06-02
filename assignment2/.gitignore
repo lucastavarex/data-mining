@@ -1,0 +1,12 @@
+/.venv
+oil.csv
+holidays_events.csv
+train.csv
+stores.csv
+test.csv
+transactions.csv
+holiday_events.csv
+add_holidays_avg-prediction.csv
+add_holidays-prediction.csv
+add_oil-prediction.csv
+basic-prediction.csv
