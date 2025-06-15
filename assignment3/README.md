@@ -1,17 +1,22 @@
-# Previsão de Ônibus no Rio de Janeiro
+# Rio de Janeiro bus prediction
 
-Este projeto visa prever a localização futura de ônibus no Rio de Janeiro com base em dados históricos de localização e horário e faz parte da disciplina de Data Mining (CPS833) do PESC UFRJ. 
+**Data Mining Course (CPS833) at PESC UFRJ.**
 
-## Tecnologias Utilizadas
+This project aims to predict the future location of buses in Rio de Janeiro based on historical location and schedule data.	
+
+## Techs
 
 - PostgreSQL
 - SQLAlchemy (Python)
 - Python 3.x
 
+## Model
 
-## Modelo
+The model is based on identifying historical patterns to predict the future location of buses.
+We use historical location and time data for buses in Rio de Janeiro to find past records that have similar characteristics to the current ones, such as route and approximate location.
 
-O modelo se baseia na identificação de padrões históricos para prever a localização futura dos ônibus. 
-Utilizamos dados históricos de localização e tempo dos ônibus no Rio de Janeiro para encontrar registros passados que tenham características similares às atuais, como linha e localização aproximada. 
-A partir desses registros, selecionamos os pontos que têm um comportamento de movimento semelhante e calculamos a mediana das coordenadas de localização futuras, 
-para fornecer uma previsão de onde o ônibus estará em um momento futuro. Este método permite uma previsão baseada em padrões reais observados, aumentando a precisão das previsões.
+
+From these records, we select points that have a similar movement behavior and calculate the median of the future location coordinates,
+to provide a prediction of where the bus will be at a future time. 
+
+This method allows a prediction based on actual observed patterns, increasing the accuracy of the predictions.
